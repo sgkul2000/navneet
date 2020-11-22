@@ -108,18 +108,21 @@ var app = new Vue({
   },
   methods: {
     searchFocus(e) {
-      if (e.keyCode <= 90 && e.keyCode >= 65) {
+      if (this.settings === true) {
+        console.log(this.settings)
+        return
+      } else if (e.keyCode <= 90 && e.keyCode >= 65) {
         if (this.searchStatus === false) {
           this.searchStatus = true
           this.search = e.key
         }
         //this.searchStatus = true
         this.$refs.searchInput.focus()
-      } else if(e.keyCode == 49 && e.shiftKey === true){
-            if (this.searchStatus === false) {
-              this.searchStatus = true
-              this.search = "!"
-            }
+      } else if (e.keyCode == 49 && e.shiftKey === true) {
+        if (this.searchStatus === false) {
+          this.searchStatus = true
+          this.search = '!'
+        }
         this.$refs.searchInput.focus()
       } else if (e.keyCode === 27) {
         this.$refs.searchInput.blur()
