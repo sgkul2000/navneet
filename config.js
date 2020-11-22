@@ -1,0 +1,4 @@
+export default {
+    "OWA_API_KEY":"f8044693af324487a7b7c9f87c1b81b5",
+    "UNSPLASH_API_KEY": "6FioZEdf0jNX4gr12DqXGjtU3vejJKxoCK5JXYT_714"
+}

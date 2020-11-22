@@ -1,5 +1,5 @@
-# Tabliss for safari
-This a browser extension ( more of a workaroud ) for safari whis is a replica of [Tabliss](https://tabliss.io) which is a new tab extension for Firefox and Chrome. 
+# Navneet - "Eternally new"
+Navneets is a new tab extension for Developers.This is more of a workaroud for safari. This is a Inspired by [Tabliss](https://tabliss.io) which is a new tab extension available for Firefox and Chrome. This project was started as a proof of concept of existance of newtab extensions for safari. This can also be used with other browsers, the procedure remains same.
 
 ## Features
  - You get the time and greeting with your first name
