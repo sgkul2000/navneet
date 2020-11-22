@@ -15,7 +15,7 @@
   "scripts": {
     "preinstalls": "npx npm-force-resolutions",
     "dev": "parcel src/index.html",
-    "build": "rm -r dist/ && parcel build src/index.html && ./replace.sh"
+    "build": "rm -rf dist/ && parcel build src/index.html && ./replace.sh"
   },
   "repository": {
     "type": "git",
